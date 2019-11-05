@@ -163,11 +163,13 @@
     padding: 98px 0px 116px 0px;
 }
 
-.title_about, .title_expert, .title_works, .title_clients {
+h2.title {
+    background: linear-gradient(51deg, #3695ff 0%, #3564fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     color: #3677fd;
     font-size: 50px;
     font-weight: 300;
-    line-height: 35px;
     text-align: center;
 }
 
